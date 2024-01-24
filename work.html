@@ -4,13 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Sock</title>
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
-    <h1>Hello!</h1>
+    <nav class="breadcrumbs">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Accessories</a></li>
+        </ul>
+    </nav>
 
+    <h1 class="product-title">Union Jack Scock</h1>
+
+    <section class="product-image">
+        <img src="./images/sock.jpg" alt="union jack sock" width="500px">
+    </section>
+
+    <section class="product-options">
+        <div class="size-options">
+            <button>6-10</button>
+            <button>10.5-13</button>
+        </div>
+    </section>
+
+    <div class="quantity">
+        <label for="quantity">Quantity</label>
+        <select name="quantity" id="quantity">
+            <option value="1">1</option>
+            <option value="2">2</option>
+        </select>
+    </div>
+
+    <div class="Price">
+        <p>Price: $100</p>
+        <button>Add to bag</button>
+    </div>
+
+    <section class="product-description">
+        <h2>Product Description</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Iusto illum ducimus sit explicabo, ipsam maxime
+            laudantium animi culpa laborum provident!</p>
+        <ul>
+            <li>97% cotton 3% cement</li>
+            <li>Machine Washable at 40</li>
+        </ul>
+    </section>
+
+    <table class="delivery-options">
+        <thead>
+            <tr>
+                <th>Delivery option</th>
+                <th>Price</th>
+                <th>Estimated Delivery Time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Standard Delivery</td>
+                <td>4.99</td>
+                <td>3-5 working days</td>
+            </tr>
+            <tr>
+                <td>Next Day Delivery</td>
+                <td>8.99</td>
+                <td>Next Working Day</td>
+            </tr>
+            <tr>
+                <td>Click & Collect</td>
+                <td>1.00</td>
+                <td>Same day</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <section class="customer-reviews">
+        <h2>Customer Reviews</h2>
+        <article>
+            <h3>james pennington</h3>
+            <p></p>
+            <p>Quick delivery and good quality</p>
+        </article>
+        <article>
+            <h3></h3>
+            <p></p>
+            <p></p>
+        </article>
+        <article>
+            <h3></h3>
+            <p></p>
+            <p></p>
+        </article>
+    </section>
 </body>
 
 </html>
